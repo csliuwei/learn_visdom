@@ -3,7 +3,7 @@ import numpy as np
 
 import time
 
-viz = Visdom(env='my_plot_3')
+viz = Visdom()
 x,y = 0,0
 win = viz.line(
         X=np.array([x]),

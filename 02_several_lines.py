@@ -1,7 +1,7 @@
 from visdom import Visdom
 import numpy as np
 
-viz = Visdom(env='my_plot_2')
+viz = Visdom()
 tr_loss = list(range(100))
 ts_loss = list(range(10, 110))
 
